@@ -1,5 +1,4 @@
 {
-
     "manifest_version": 2,
     "name": "Beastify",
     "version": "1.0",
@@ -25,5 +24,4 @@
     "beasts/turtle.jpg",
     "beasts/snake.jpg"
     ]
-
 }
