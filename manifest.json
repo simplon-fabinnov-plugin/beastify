@@ -3,6 +3,9 @@
     "name": "Beastify",
     "version": "1.0",
 
+    "description": "Adds a browser action icon to the toolbar. Click the button to choose a beast. The active tab's body content is then replaced with a picture of the choosen beast. See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#beastify",
+    "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
+
     "applications": {
         "gecko": {
             "id": "beastify@mozilla.org"

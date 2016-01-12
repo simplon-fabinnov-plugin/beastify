@@ -13,7 +13,7 @@ function removeEverything() {
   }
 }
 
-function insertBeast() {
+function insertBeast(beastURL) {
   var beastImage = document.createElement("img");
   beastImage.setAttribute("src", beastURL);
   beastImage.setAttribute("style", "width: 100vw");
@@ -21,13 +21,13 @@ function insertBeast() {
   document.body.appendChild(beastImage);
 }
 
-function beastNameToURL() {
+function beastNameToURL(beastURL) {
   switch (beastName) {
-    case "Frog":
+    case "Frog - Grenouille":
       return chrome.extension.getURL("beasts/frog.jpg");
-    case "Snake":
+    case "Snake - Serpent":
       return chrome.extension.getURL("beasts/snake.jpg");
-    case "Turtle":
-      return chrome.extension.getURL("beasts/turtle.jpg");      
+    case "Turtle - Tortue":
+      return chrome.extension.getURL("beasts/turtle.jpg");
   }
 }
