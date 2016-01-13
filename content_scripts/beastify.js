@@ -21,9 +21,8 @@ function insertBeast(beastURL) {
   document.body.appendChild(beastImage);
 }
 
-function beastNameToURL(beastURL) {
+function beastNameToURL(beastName) {
   switch (beastName) {
-    console.log();
     case "Frog":
       return chrome.extension.getURL("beasts/frog.jpg");
     case "Snake":
